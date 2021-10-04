@@ -74,7 +74,7 @@ def SELECT( cmd, data ):
 
 while True:
   cmd = input("MiniSQL> ").split(" ")
-  
+  print( ' '.join(cmd) ) 
   if cmd[0].lower() == 'use':
     buf = USE( cmd[1] )
     if 'error' in buf:
