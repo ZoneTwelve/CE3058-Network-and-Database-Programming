@@ -1,5 +1,5 @@
 SELECT * FROM sql
 SELECT * FROM student
 SELECT name,score,class FROM student
-SELECT * FROM student FROM student WHERE score>60
+SELECT * FROM student WHERE score>60
 SELECT name,studentid,score FROM student WHERE score>59,class=A
